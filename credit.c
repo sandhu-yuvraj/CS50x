@@ -1,3 +1,19 @@
+//This program uses Luhn's algorithm
+/*
+ * THE LUHN ALGORITHM (MOD 10) VALIDATION STEPS:
+ * --------------------------------------------
+ * 1. Multiply every second digit by 2, starting from the number's 
+ *    second-to-last digit and moving backward (right-to-left).
+ * 
+ * 2. Add those products' digits together. If a product is a double digit 
+ *    (e.g., 12 or 16), split and sum its individual digits (e.g., 1 + 2 = 3).
+ * 
+ * 3. Add that sum to the sum of all the remaining digits (the ones that 
+ *    were NOT multiplied by 2, including the very last check digit).
+ * 
+ * 4. If the total sum ends in 0 (Total Sum % 10 == 0), the card number 
+ *    is mathematically valid. Otherwise, it is INVALID.
+ */
 #include <cs50.h>
 #include <stdio.h>
 int main(void)
