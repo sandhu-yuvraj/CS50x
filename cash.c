@@ -1,3 +1,22 @@
+//This program uses Greedy algorithm
+/*
+ * THE GREEDY ALGORITHM FOR COIN CHANGE:
+ * -------------------------------------
+ * 1. Always choose the largest possible coin denomination that is 
+ *    less than or equal to the remaining change owed.
+ * 
+ * 2. Subtract that coin's value from the total change owed and 
+ *    increment the coin count.
+ * 
+ * 3. Repeat this process in descending order of coin values 
+ *    until the remaining change owed is exactly 0.
+ * 
+ * 4. Denominations used (in cents):
+ *    - Quarters: 25¢
+ *    - Dimes:    10¢
+ *    - Nickels:  5¢
+ *    - Pennies:  1¢
+ */
 #include <cs50.h>
 #include <stdio.h>
 int main(void)
