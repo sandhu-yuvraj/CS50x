@@ -10,7 +10,7 @@ The easiest way to run and compile the C codes with the library <cs50.h> is usin
 - `cat.c` - Prints meow three times.
 - `compare.c` - Compares two integers as taken from input by the user.
 - `contacts.c` - Creates a contact.
-- `credit.c` - Checks the authenticity of a card and displays its type.
+- `credit.c` - Checks the authenticity of a card and displays its type usimg Luhn's algorithm
 - `hello.c` - Greets the user.
 - `helloworld.c` - Basic hello world programme.
 - `mario-less.c` - Prints a right aligned pyramid of a height 1 to 8 as given to it by the user.
