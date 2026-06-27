@@ -18,6 +18,7 @@ The easiest way to run and compile the C codes with the library <cs50.h> is usin
 - `my-cat.c` - Prints meow as many times the user asks, by providing input.
 - `n-mewo.c` - Prints meow as many times as the user wants, but declares a function for it.
 - `pillar.c` - Prints a pillar of #, of dimensions given by the user.
+- `pyramid.c` - Prints a left aligned pyramid of #, of height ranging from 1 to 8.
 - `scrabble.c` - A two player Scrabble game.
 - `sum-cons-natural-nos.c` - Prints the sum of consecutive natural numbers as per the given input.
 - `sum-multiple-int.c` - Sums as many numbers the user wants.
