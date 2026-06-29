@@ -1,9 +1,12 @@
+
 # C
+
 Author: Yuvraj Singh Sandhu
-<br>
+
 The easiest way to run and compile the C codes with the library <cs50.h> is using the website cs50.dev .
 
 ## Files
+
 - `add.c` - Takes two inetgers as input and prints their sum.
 - `agree.c` - Asks question from the user and prints the decision.
 - `cash.c` - Takes input of money to return and tells minimum total number of coins required to return the money in value of 1, 5, 10, and 25 cents using Greedy algorithm.
