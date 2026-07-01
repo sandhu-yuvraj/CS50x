@@ -1,7 +1,9 @@
-#include <cs50.h>
 #include <stdio.h>
 int main(void){
-    char c = get_char("Do you agree? \n");
+     char c;
+    printf("Do you agree? ");
+    scanf(" %c" , &c); // Answer in y or Y
+    printf("You entered: %c\n" , c);
     if (c == 'y' || c == 'Y')
     {printf ("Agreed\n");}
         else {printf ("Not agreed\n");}
