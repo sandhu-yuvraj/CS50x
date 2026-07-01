@@ -17,14 +17,14 @@
  *    - Nickels:  5¢
  *    - Pennies:  1¢
  */
-#include <cs50.h>
 #include <stdio.h>
 int main(void)
 {
     int cents;
     do
     {
-        cents = get_int("Change owed: ");
+        printf("Change owed: ");
+        scanf("%d" , &cents);
     }
     while (cents < 0);
     int coins = 0;
@@ -36,6 +36,6 @@ int main(void)
     cents %= 5;
     coins += cents / 1;
     cents %= 1;
-    printf("%i\n", coins);
+    printf("%d\n", coins);
     return 0;
 }
