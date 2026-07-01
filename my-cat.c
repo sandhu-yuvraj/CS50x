@@ -1,9 +1,10 @@
-#include <cs50.h>
 #include <stdio.h>
-int main(void){
+int main(void)
+{
     int n;
-    while (true){
-        n = get_int ("What's n? ");
+    while (1){
+        printf("What's n? ");
+        scanf("%d" , &n);
         if (n<0) {continue;}
         else {break;}
     }
