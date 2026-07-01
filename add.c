@@ -1,9 +1,11 @@
-#include <cs50.h>
 #include <stdio.h>
 int main(void)
 {
-    int x = get_int("What's x? ");
-    int y = get_int("What's y? ");
+    int x , y;
+    printf("What's x? ");
+    scanf("%d" , &x);
+    printf("What's y? ");
+    scanf("%d" , &y);
     printf("%i\n", x + y);
     return 0;
 }
