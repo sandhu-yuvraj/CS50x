@@ -1,8 +1,10 @@
-#include <cs50.h>
 #include <stdio.h>
 int main(void){
-    int x = get_int ("What's x?\n");
-    int y = get_int ("What's y?\n");
+    int x , y;
+    printf("What's x? \n");
+    scanf("%d" , &x);
+    printf("What's y? \n");
+    scanf("%d" , &y);
     if (x<y)
     {printf("x is less than y\n");}
     else if (x>y)
