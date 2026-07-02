@@ -14,12 +14,13 @@
  * 4. If the total sum ends in 0 (Total Sum % 10 == 0), the card number 
  *    is mathematically valid. Otherwise, it is INVALID.
  */
-#include <cs50.h>
 #include <stdio.h>
 int main(void)
 {
-    long number = get_long("Number: ");
-    long copy = number;
+   long long number;
+    printf("Number: "); // Enter credit card number without spaces
+    scanf("%lld" , &number);
+    long long copy = number;
     int length = 0;
     while (copy > 0)
     {
@@ -47,9 +48,9 @@ int main(void)
     if (sum % 10 != 0)
     {
         printf("INVALID\n");
-        return 0;
+        return 1;
     }
-    long first = number;
+    long long first = number;
     while (first >= 100)
     {
         first = first / 10;
