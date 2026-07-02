@@ -7,6 +7,7 @@ The easiest way to run and compile the C codes with the library <cs50.h> is usin
 
 ## Files
 
+- `add-multiple-nos.c` - Adds as many numbers the user wants.
 - `add.c` - Takes two inetgers as input and prints their sum.
 - `agree.c` - Asks question from the user and prints the decision.
 - `cash.c` - Takes input of money to return and tells minimum total number of coins required to return the money in value of 1, 5, 10, and 25 cents using Greedy algorithm.
@@ -24,5 +25,4 @@ The easiest way to run and compile the C codes with the library <cs50.h> is usin
 - `pyramid.c` - Prints a left aligned pyramid of #, of height ranging from 1 to 8.
 - `scrabble.c` - A two player Scrabble game.
 - `sum-cons-natural-nos.c` - Prints the sum of consecutive natural numbers as per the given input.
-- `sum-multiple-int.c` - Sums as many numbers the user wants.
 - `wall.c` - Prints a square wall of # as per the dimesions asked by the user.
