@@ -1,17 +1,21 @@
-#include <cs50.h>
 #include <stdio.h>
 int main (void)
 {
-       int number = get_int ("How many numbers do you want to add? ");
-       int sum = 0;
+          int number ;
+           printf("How many numbers do you want to add? ");
+           scanf("%d", &number);
+
+       float sum = 0;
        for ( int i=0; i < number ; i++ )
    {
 
-         int value = get_int ("What's n? ");
+         float value ;
+         printf("What's n? ");
+         scanf("%f" , &value);
          sum += value;
    }
 
-     printf ("Answer: %i\n" , sum);
+     printf ("Answer: %f\n" , sum);
 
   return 0;
 }
