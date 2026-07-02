@@ -1,11 +1,12 @@
-#include <cs50.h>
 #include<stdio.h>
 int main(void)
 {
     int n;
     do
     {
-        n = get_int("Height: ");
+            printf("Enter Height: ");
+            scanf("%d", &n);
+
     }
     while (n < 1 || n > 8);
     
@@ -15,4 +16,6 @@ int main(void)
         {
             printf("#");
         }
+        printf("\n");
     }
+}
