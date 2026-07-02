@@ -1,14 +1,15 @@
-#include <cs50.h>
 #include <stdio.h>
 int main (void)
 {
-    int n = get_int("What's n? ");
+    int n;
+        printf("What's n? ");
+        scanf("%d", &n);
     int sum = 0;
     for (int i = 1 ; i<= n; i++)
     {
         sum += i;
     }
 
-    printf ("%i\n" , sum);
+    printf ("%d\n" , sum);
     return 0;
 }
